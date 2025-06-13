@@ -1,12 +1,9 @@
-# Site
-# repository: sproogen/modern-resume-theme
-
 # Content configuration version
 version: 2
 
 # Personal info
 name: Vlad Dulgheru
-title: Technical Lead - Ceragon Networks
+title: Fullstack Software Engineer
 email: dulgheruvladut@gmail.com
 phone: +40753936574
 website:
@@ -18,114 +15,118 @@ darkmode: false
 linkedin_username: dulgheruvlad
 
 # About Section
-about_profile_image: images/profile.jpg
+about_profile_image: profile.jpg
 about_content: |
-  Highly motivated and results-driven Senior Software Engineer with 6+ years of experience in designing,
-  developing, and implementing complex telecommunications solutions. Proven ability to lead technical
-  discussions, mentor junior engineers. Adept at optimizing performance, ensuring code quality, and delivering
-  high-impact features within agile environments.
+  Fullstack Software Engineer with 6+ years of experience building scalable, high-performance systems in telecom and enterprise environments. Strong backend expertise in Java, Spring Boot, and PostgreSQL, with practical frontend and DevOps knowledge. Proven track record in leading projects, mentoring developers, and improving system performance and code quality. Focused, adaptable, and passionate about clean architecture and continuous improvement.
 
 content:
-  - title: Projects
-    layout: list
-    content: []
+#  - title: Projects
+#    layout: list
+#    content: []
 
   - title: Experience
     layout: list
     content:
       - layout: left
         title: Ceragon Networks
-        sub_title: Technical Lead
+        sub_title: Java Technical Lead
         caption: Jul 2021 - Present (3 years and 10 months)
         link:
         quote: >
-          Research & Development | IT / Telecom
+          Research & Development | Fullstack Telecom Software Solutions
         description: |
-          * Led architectural design and technical breakdown sessions for a team of 3 engineers, ensuring alignment with critical project goals and best practices, resulting in a 15% reduction in design flaws and improved team efficiency.
-          * Drove a 15% improvement in system performance by identifying and resolving critical bottlenecks within the data processing pipeline, significantly reducing latency and enhancing user experience.
-          * Reduced software vulnerabilities by 20% by leading proactive software upgrades and refactoring initiatives, coupled with the implementation of rigorous unit testing, thereby strengthening system security and stability.
-          * Mentored and guided junior developers, fostering a collaborative environment and promoting knowledge sharing through regular tech talks and comprehensive documentation, leading to increased team cohesion and accelerated onboarding of new members.
-          * Developed and maintained key system components using Java, Spring, and Elasticsearch, ensuring high availability and scalability to support a growing user base and critical business operations.
-          * Led the migration of the CI/CD infrastructure, ensuring zero downtime during the transition, minimizing disruption to development workflows and maintaining continuous delivery of software releases.
+          * Led architectural design and sprint planning for a team of 3 engineers, aligning technical implementation with business requirements and agile practices.
+          * Boosted system performance by 15% through backend bottleneck resolution and front-end rendering optimizations.
+          * Increased system resilience and security by spearheading proactive refactoring, rigorous unit testing, and regular upgrade cycles.
+          * Mentored junior developers via pair programming, documentation, and internal workshops, shortening onboarding time and raising team maturity.
+          * Built and maintained distributed system components using Java, Spring Boot, PostgreSQL, Elasticsearch, and RESTful APIs.
+          * Managed the CI/CD migration and implemented observability improvements using TeamCity, Kibana, Dynatrace, and Kafka, ensuring zero downtime and real-time alerting.
 
       - layout: left
         title: Ceragon Networks
         sub_title: Java Developer
-        caption: Oct 2018 - Present (6 years and 7 months)
+        caption: Oct 2018 - Jul 2021 (2 years and 9 months)
         description: |
-          * Designed, developed, and implemented 10+ features for the core telecommunications platform using Java, JPA, and PostgreSQL, enhancing system functionality.
-          * Improved feature performance by 25% through code optimization and database query tuning, reducing latency and increasing throughput.
-          * Successfully resolved 50+ high-priority bugs, ensuring system stability and reliability and minimizing downtime.
-          * Conducted technical requirement reviews and developed proof-of-concepts for new features, contributing to effective project planning and reducing development time by 5%.
-          * Collaborated with cross-functional teams (QA, Product) to deliver high-quality software solutions within tight deadlines.
+          * Delivered over 10 core features for a telecommunications platform using Java, JPA, and PostgreSQL.
+          * Optimized backend logic and database queries, improving latency and overall system throughput by 25%.
+          * Diagnosed and fixed 50+ production bugs across frontend/backend modules, contributing to system reliability.
+          * Participated in UI/UX discussions and implemented JSON/XML APIs to improve client-side interactions.
+          * Delivered POCs, code reviews, and feature estimations that contributed to improved sprint predictability.
 
       - layout: left
         title: Know How S.R.L
-        sub_title: Developer
+        sub_title: ERP Developer
         caption: Nov 2015 - Aug 2018 (2 years and 10 months)
         description: |
-          * Customization experience on ERP software, both technical and functional flows, for Infor products as BaaN4, LN, ION, SupplierWeb.
+          * Developed and customized ERP workflows using Infor technologies (BaaN4, LN, ION), including front-end forms and back-end integration logic.
 
       - layout: left
         title: Pair Opportunities Commission of Veneto
         sub_title: Web Developer
         caption: Sep 2014 - Mar 2015 (7 months)
         description: |
-          * Designed and developed a website aimed at introducing women to the field of computer science, under the supervision of Prof. Agostino Cortesi.
+          * Designed and launched a responsive website to promote computer science careers to women.
+          * Integrated front-end UI with dynamic HTML/CSS/JS components under academic guidance.
 
       - layout: left
         title: StudioManoLibera
         sub_title: Graphic Designer (Collaboration)
         caption: Apr 2010 - May 2010 (2 months)
         description: |
-          * Contributed to the production of an animated video for a well-known Italian cartoon character.
-          * Improved proficiency in Adobe Photoshop and Illustrator.
+          * Contributed digital artwork and visual assets for an Italian cartoon production using Adobe Suite tools.
 
       - layout: left
         title: CosmoFoto
         sub_title: Intern
         caption: Feb 2009 - Feb 2009 (1 month)
         description: |
-          * Worked on photo development and printing.
-          * Improved skills in Adobe Photoshop.
+          * Assisted with photo development and gained Photoshop experience in a production setting.
 
       - layout: left
         title: Municipality of Oderzo
         sub_title: Translator
         caption: Mar 2008 - Mar 2008 (1 month)
         description: |
-          * Participated in the "Letters from the West" project in collaboration with the Social Services office.
-          * Gained experience working with multicultural teams.
+          * Participated in a cultural translation initiative for the “Letters from the West” social services project.
 
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Universitá Ca’Foscari Venezia
         sub_title: Bachelor's degree in Computer Science
         caption: 2013 - 2018
-        quote: >
-          Department of Environmental Sciences, Computer Science and Statistics
+        description: |
+          * Department of Environmental Sciences, Computer Science and Statistics
 
-      - layout: top-right
+      - layout: top-left
         title: A.V. Obici
         sub_title: High School / Vocational School - Graphic Designer
         caption: 2007 - 2011
         description: |
           * Advertising Graphic Diploma
-          * Learned and applied graphic-pictorial techniques for design and production
+          * Trained in digital illustration and layout design
 
   - title: Skills
     layout: text
     content: |
-      **Technical Skills:**
-      Java, Spring, JPA, PostgreSQL, Hibernate, Elasticsearch, Kafka, Dynatrace, TeamCity, Kibana, Logstash, Log4j2, CI/CD, Agile Methodology, Eclipse IDE, Maven, SNMP, NETCONF
+      **Fullstack Technologies:**
+      Java, Spring Boot, JPA, PostgreSQL, Hibernate, REST APIs, Elasticsearch, Kafka, HTML, CSS, JavaScript
 
-      **Other Technologies:**
-      Adobe Photoshop, Adobe Illustrator, Corel Draw, HTML/CSS, JavaScript, SQL, Unix, XML, XSD, Microsoft Office, ER Studio, BaaN IV, ERP Infor LN, F#, ION
+      **DevOps & Observability:**
+      CI/CD, Dynatrace, TeamCity, Kibana, Logstash, Log4j2, SNMP, NETCONF
+
+      **Development Practices:**
+      Agile Methodology, Pair Programming, Technical Documentation, System Design, Unit Testing, Code Reviews
+
+      **Tools & Platforms:**
+      Eclipse IDE, Maven, Unix/Linux, Microsoft Office, Adobe Photoshop, Adobe Illustrator
+
+      **ERP & Legacy Systems:**
+      BaaN IV, ERP Infor LN, F#, ION, XML, XSD, ER Studio
 
       **Soft Skills:**
-      Mentoring, Communication, Teamwork, Project Planning, Documentation
+      Mentoring, Communication, Team Collaboration, Requirements Analysis
 
       **Languages:**
       Italian: Advanced
