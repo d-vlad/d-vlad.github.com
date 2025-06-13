@@ -15,7 +15,7 @@ website:
 darkmode: false
 
 # Social links
-linkedin_username: vlad-dulgheru
+linkedin_username: dulgheruvlad
 
 # About Section
 about_profile_image: images/profile.jpg
@@ -33,7 +33,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Ceragon Networks
         sub_title: Technical Lead
         caption: Jul 2021 - Present (3 years and 10 months)
@@ -48,7 +48,7 @@ content:
           * Developed and maintained key system components using Java, Spring, and Elasticsearch, ensuring high availability and scalability to support a growing user base and critical business operations.
           * Led the migration of the CI/CD infrastructure, ensuring zero downtime during the transition, minimizing disruption to development workflows and maintaining continuous delivery of software releases.
 
-      - layout: right
+      - layout: left
         title: Ceragon Networks
         sub_title: Java Developer
         caption: Oct 2018 - Present (6 years and 7 months)
@@ -59,21 +59,21 @@ content:
           * Conducted technical requirement reviews and developed proof-of-concepts for new features, contributing to effective project planning and reducing development time by 5%.
           * Collaborated with cross-functional teams (QA, Product) to deliver high-quality software solutions within tight deadlines.
 
-      - layout: right
+      - layout: left
         title: Know How S.R.L
         sub_title: Developer
         caption: Nov 2015 - Aug 2018 (2 years and 10 months)
         description: |
           * Customization experience on ERP software, both technical and functional flows, for Infor products as BaaN4, LN, ION, SupplierWeb.
 
-      - layout: right
+      - layout: left
         title: Pair Opportunities Commission of Veneto
         sub_title: Web Developer
         caption: Sep 2014 - Mar 2015 (7 months)
         description: |
           * Designed and developed a website aimed at introducing women to the field of computer science, under the supervision of Prof. Agostino Cortesi.
 
-      - layout: right
+      - layout: left
         title: StudioManoLibera
         sub_title: Graphic Designer (Collaboration)
         caption: Apr 2010 - May 2010 (2 months)
@@ -81,7 +81,7 @@ content:
           * Contributed to the production of an animated video for a well-known Italian cartoon character.
           * Improved proficiency in Adobe Photoshop and Illustrator.
 
-      - layout: right
+      - layout: left
         title: CosmoFoto
         sub_title: Intern
         caption: Feb 2009 - Feb 2009 (1 month)
@@ -89,7 +89,7 @@ content:
           * Worked on photo development and printing.
           * Improved skills in Adobe Photoshop.
 
-      - layout: right
+      - layout: left
         title: Municipality of Oderzo
         sub_title: Translator
         caption: Mar 2008 - Mar 2008 (1 month)
@@ -130,27 +130,6 @@ content:
       **Languages:**
       Italian: Advanced
       English: Intermediate
-
-  - title: Certifications
-    layout: list
-    content:
-      - layout: top-right
-        title: ION
-        sub_title: Technical Training
-        caption: Nov 2015
-
-  - title: Driving License
-    layout: list
-    content:
-      - layout: top-right
-        title: Category A
-        sub_title: Driving License
-        caption: 24 Sep 2010
-
-      - layout: top-right
-        title: Category B
-        sub_title: Driving License
-        caption: 24 Sep 2010
 
 # Footer
 footer_show_references: true
