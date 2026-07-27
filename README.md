@@ -9,7 +9,7 @@
 Bucharest, Romania · open to remote (Europe)</p>
 
 <p align="center">
-  <a href="https://dulgheruvlad.github.io">
+  <a href="https://d-vlad.github.io">
     <img src="https://img.shields.io/badge/Portfolio-d--vlad.github.io-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/dulgheruvlad">
@@ -24,12 +24,12 @@ Bucharest, Romania · open to remote (Europe)</p>
 
 - **[Ceragon Networks](https://www.ceragon.com)** — Java Technical Lead on real-time telecom platforms: Java/Spring Boot services, PostgreSQL, Elasticsearch, Kafka, REST APIs; led CI/CD migration to OpenShift with Jenkins, TeamCity, and Dynatrace observability
 - **AI-assisted engineering** — internal agents for security auditing, code review, and JUnit test generation running on local models, plus Jenkins pipeline automation
-- **[This site](https://github.com/d-vlad/dulgheruvlad.github.com)** — personal CV & portfolio, built with Hugo (Toha theme)
+- **[This site](https://github.com/d-vlad/d-vlad.github.com)** — personal CV & portfolio, built with Hugo (Toha theme)
 
 ## 🛠️ Stack
 
 <p align="center">
-  <a href="https://dulgheruvlad.github.io">
+  <a href="https://d-vlad.github.io">
     <img src="https://skillicons.dev/icons?i=java,spring,postgres,kafka,docker,git,linux,html,css,js&perline=10" />
   </a>
 </p>
