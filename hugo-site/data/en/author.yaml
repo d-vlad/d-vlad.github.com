@@ -1,0 +1,21 @@
+# some information about you
+name: "Vlad Dulgheru"
+nickname: "Vlad"
+greeting: "Hi, I am"
+subtitle: "Europe-based, open to remote work"
+image: "images/author/profile.jpg"
+
+# contact information used in the footer
+contactInfo:
+  email: "dulgheruvladut@gmail.com"
+  phone: "+40 753 936 574"
+  linkedin: dulgheruvlad
+
+# rotating summary lines on the landing section
+summary:
+  - Full Stack Software Engineer
+  - Europe-based, open to remote work
+  - 9+ Years in Telecom and Enterprise Software
+  - Java and Spring Boot Backend Focus
+  - Performance, Reliability, and Architecture
+  - AI and Automation Practical Workflows

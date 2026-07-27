@@ -1,0 +1,20 @@
+# Copyright Notice
+copyright: © 2026 Vlad Dulgheru.
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+disclaimer: "Personal CV and project portfolio website."
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Fullstack Software Engineer CV and project portfolio of Vlad Dulgheru.
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus: []
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Vlad Dulgheru | Fullstack Software Engineer
+  type: website
+  description: Fullstack Software Engineer CV and project portfolio of Vlad Dulgheru.
+  image: images/author/profile.jpg
+  url: https://d-vlad.github.io

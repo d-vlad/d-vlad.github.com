@@ -1,0 +1,66 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Full Stack Engineer
+company:
+  name: Ceragon Networks
+  url: "https://www.ceragon.com"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Full Stack Engineer with 9+ years of experience delivering telecom and enterprise software. Strong back-end focus in Java and Spring Boot with hands-on front-end and DevOps expertise. Experience includes architecture, performance optimization, reliability improvements, and team mentoring. Recently explored offline AI model workflows and practical agent-based automation for engineering tasks. Works on turning complex product requirements into scalable, maintainable systems.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "dulgheruvladut@gmail.com"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/dulgheruvlad"
+
+- name: phone
+  icon: "fas fa-phone"
+  url: "+40753936574"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: Leadership 
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Communication 
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Team Collaboration 
+  percentage: 90
+  color: orange
+
+- type: soft-skill-indicator
+  name: Agentic AI 
+  percentage: 50
+  color: green
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
