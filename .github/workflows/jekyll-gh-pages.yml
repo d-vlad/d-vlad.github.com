@@ -36,13 +36,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: "20"
 
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version-file: ./hugo-site/go.mod
-          cache-dependency-path: ./hugo-site/go.sum
 
       - name: Install npm dependencies
         working-directory: ./hugo-site
