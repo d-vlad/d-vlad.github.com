@@ -42,6 +42,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version-file: ./hugo-site/go.mod
+          cache-dependency-path: ./hugo-site/go.sum
 
       - name: Install npm dependencies
         working-directory: ./hugo-site
@@ -49,8 +50,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Build with Hugo
         working-directory: ./hugo-site
