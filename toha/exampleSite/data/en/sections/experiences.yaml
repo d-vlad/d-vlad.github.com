@@ -1,0 +1,101 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Ceragon Networks
+    url: "https://www.ceragon.com"
+    location: Bucharest, Romania
+    overview: Telecom and enterprise software development with strong full stack delivery.
+  positions:
+  - designation: Java Technical Lead
+    start: Jul 2021
+    responsibilities:
+    - Built AI agents using a "vibe coding" workflow by defining the core ideas and implementing them with different tools.
+    - Developed real-time security-auditor agents.
+    - Developed real-time code-review agents powered by local models.
+    - Built task-focused agents for codebase awareness and JUnit test generation.
+    - Built agents for Jenkins pipeline and job automation tasks.
+    - Led architecture and sprint planning for the team, aligning implementation with product priorities and delivery timelines.
+    - Improved platform performance by identifying issues, performing query analysis, and applying targeted optimizations based on heap-dump analysis, thread-dump diagnostics, and real-time application profiling.
+    - Increased system resilience and security by driving proactive refactoring, stricter unit testing, and structured upgrade cycles.
+    - Mentored engineers through pair programming, documentation, and internal knowledge sessions, reducing onboarding ramp time.
+    - Built and maintained distributed components using Java, Spring Boot, PostgreSQL, Elasticsearch, Kafka, and REST APIs.
+    - Managed CI/CD Jenkins pipelines end-to-end, including pipeline creation, maintenance, and flow improvements.
+    - Implemented Podman-based deployment workflows and delivered a proof of concept that migrated the application directly to OpenShift.
+    - Led CI/CD migration and observability improvements with TeamCity, Kibana, and Dynatrace, supporting zero-downtime deployments and real-time alerting.
+
+  - designation: Java Developer
+    start: Oct 2018
+    end: Jul 2021
+    responsibilities:
+    - Developed and maintained feature work across Java 8/11/21 services using Spring, JPA/Hibernate, SQL and NoSQL data layers, and messaging components including ActiveMQ and Kafka.
+    - Created and led poker-planning and software-design sessions, defining technical steps for full feature integration.
+    - Maintained Maven dependencies and contributed to Eclipse RCP e3-based development workflows.
+    - Investigated and resolved production issues including memory leaks, deadlocks, and race conditions, improving reliability and system stability.
+
+- company:
+    name: Know How S.R.L
+    location: Padova, Italy
+    overview: ERP development and enterprise workflow customization.
+  positions:
+  - designation: Junior Developer (ERP)
+    start: Nov 2015
+    end: Aug 2018
+    responsibilities:
+    - Customized Infor ERP products including BaaN IV, FP7, LN10.3.x, and LN10.5.x.
+    - Developed new ERP flows (sessions, reports, forms, tables, domains, and scripts) and modified standard flows through LN10.x extensibility.
+    - Implemented and integrated web services to support enterprise workflow automation.
+
+- company:
+    name: Pair Opportunities Commission of Veneto
+    location: Italy
+    overview: Inclusion-focused web initiative.
+  positions:
+  - designation: Web Developer
+    start: Sep 2014
+    end: Mar 2015
+    responsibilities:
+    - Developed a website application using HTML, CSS, and JavaScript for the Italy Pair Opportunity Project.
+    - Built a responsive and adaptable web application using Bootstrap.
+
+- company:
+    name: StudioManoLibera
+    location: Italy
+    overview: Volunteer creative collaboration.
+  positions:
+  - designation: Volunteer
+    start: Apr 2010
+    end: May 2010
+    responsibilities:
+    - Learned photography concepts, digital technical workflows, and vector-based artwork fundamentals.
+
+- company:
+    name: Cosmo Photo
+    location: Italy
+    overview: Volunteer photography experience.
+  positions:
+  - designation: Volunteer (Passionate about Photography)
+    start: Feb 2009
+    end: Feb 2009
+    responsibilities:
+    - Performed volunteer work to learn and deepen practical photography knowledge.
+
+- company:
+    name: Municipality of Oderzo
+    location: Italy
+    overview: Volunteer translation in a multicultural social-services context.
+  positions:
+  - designation: Volunteer Translator
+    start: Mar 2008
+    end: Mar 2008
+    responsibilities:
+    - Participated in an early large project that strengthened communication skills in a multicultural environment.

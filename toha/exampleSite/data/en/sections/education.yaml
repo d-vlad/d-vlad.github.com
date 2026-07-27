@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Bachelor's Degree in Computer Science
+  icon: fa-graduation-cap
+  timeframe: 2013-2018
+  institution:
+    name: Ca' Foscari University of Venice
+  customSections:
+    - name: Location
+      content: Venice, Italy
+
+- name: Advertising Graphics Diploma (Graphic Designer Track)
+  icon: fa-palette
+  timeframe: 2007-2011
+  institution:
+    name: A.V. Obici
+  customSections:
+    - name: Focus
+      content: Advertising graphics and visual design fundamentals

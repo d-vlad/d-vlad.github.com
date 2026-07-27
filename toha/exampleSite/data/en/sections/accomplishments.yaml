@@ -1,0 +1,42 @@
+# section information
+section:
+  name: AI Initiatives
+  id: accomplishments
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Agent Workflows for Engineering Tasks
+  timeline: Recent
+  organization:
+    name: Professional R&D
+    url: https://www.linkedin.com/in/dulgheruvlad
+  courseOverview: Built AI agents using a "vibe coding" workflow by defining the core ideas and implementing them with different tools.
+
+- name: Real-time Security Auditor Agents
+  timeline: Recent
+  organization:
+    name: Professional R&D
+    url: https://www.linkedin.com/in/dulgheruvlad
+  courseOverview: Developed real-time security-auditor agents to support continuous code and workflow risk checks.
+
+- name: Real-time Code Review Agents with Local Models
+  timeline: Recent
+  organization:
+    name: Professional R&D
+    url: https://www.linkedin.com/in/dulgheruvlad
+  courseOverview: Designed and tested real-time code-review agents powered by local models for fast, private feedback loops.
+
+- name: Task-focused Engineering Agents
+  timeline: Recent
+  organization:
+    name: Professional R&D
+    url: https://www.linkedin.com/in/dulgheruvlad
+  courseOverview: Built task-focused agents for codebase awareness, JUnit test generation, and Jenkins pipeline/job automation.
+ 
+

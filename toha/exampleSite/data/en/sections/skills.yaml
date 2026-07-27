@@ -1,0 +1,66 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Backend
+  filter: "backend"
+- name: Frontend
+  filter: "frontend"
+- name: Data and Search
+  filter: "data"
+- name: DevOps
+  filter: "devops"
+- name: ERP and Legacy
+  filter: "erp"
+- name: Tools
+  filter: "tools"
+- name: Practices
+  filter: "practices"
+- name: Languages
+  filter: "languages"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Backend and APIs
+  summary: "Java, Spring Boot, JPA, Hibernate, PostgreSQL, SQL, NoSQL, REST APIs, XML, XSD."
+  categories: ["backend"]
+
+- name: Frontend
+  summary: "JavaScript, HTML, CSS."
+  categories: ["frontend"]
+
+- name: Data, Messaging, and Search
+  summary: "Elasticsearch, Kafka, and ActiveMQ."
+  categories: ["data"]
+
+- name: DevOps and Monitoring
+  summary: "CI/CD, Jenkins Pipelines, Podman, OpenShift, TeamCity, Dynatrace, Kibana, Logstash, Log4j2, Unix/Linux."
+  categories: ["devops"]
+
+- name: ERP and Legacy
+  summary: "BaaN IV, ERP Infor LN, ION, ER Studio."
+  categories: ["erp"]
+
+- name: Tools
+  summary: "Eclipse IDE, Eclipse RCP e3, WildFly, Maven, Adobe Photoshop, Adobe Illustrator."
+  categories: ["tools"]
+
+- name: Engineering Practices
+  summary: "System design, code review, unit testing, agile delivery, technical documentation, mentoring, and estimation."
+  categories: ["practices"]
+
+- name: Spoken Languages
+  summary: "Italian and Romanian (Native/Bilingual), English (Professional Working Proficiency)."
+  categories: ["languages"]
